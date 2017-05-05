@@ -159,17 +159,17 @@
     "QuickExecutionElementWaitTimeout": 15000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
-    "QcUserName": null,
+    "QcUserName": "",
     "QcPassword": "",
     "QcSkipAuthDialog": false,
     "QcDomain": null,
     "QcProject": null,
-    "TfsUserName": null,
+    "TfsUserName": "",
     "TfsPassword": "",
     "TfsSkipAuthDialog": true,
-    "TfsDomain": null,
+    "TfsDomain": "",
     "TeamPulseServerUrl": "",
-    "TpUserName": null,
+    "TpUserName": "",
     "TpPassword": "",
     "TpUseWindowsAuth": false,
     "TpSkipAuthDialog": false,
@@ -179,8 +179,20 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "e898c367-9dfe-46fa-ab58-562f358672d3",
-    "SourceControlRepository": null,
-    "IsOnline": false,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/tsvetkoe/TestRepo.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/tsvetkoe/TestRepo.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
     "ProjectLanguage": 2,
     "ProjectReferences": [
       "System",
