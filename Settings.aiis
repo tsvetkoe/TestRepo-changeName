@@ -15,7 +15,9 @@
     "CodeGenerationElementIdentificationType": 1,
     "UrlHistory": [],
     "AbsoluteDragDropRecording": true,
+    "ShowStoryboardHorizontalLayout": true,
     "ImageScalePercentage": 75,
+    "SkipTranslatorsOptimization": false,
     "SelectedIdentificaitonScheme": "Html",
     "IdentificationSchemes": {
       "Html": {
@@ -147,11 +149,46 @@
           },
           "TechnologyType": 2
         }
+      },
+      "Desktop": {
+        "__type": "ArtOfTest.Common.Design.Translation.IdentificationOptionsScheme",
+        "__value": {
+          "CheckFindParamUniqueness": true,
+          "AutoDetectTestRegions": true,
+          "TryAttributeCombinations": true,
+          "AlwaysAssertTagName": true,
+          "IdentificationsPerTag": {
+            "All Elements": {
+              "__type": "ArtOfTest.Common.Design.Translation.IdentificationDescriptorList",
+              "__value": [
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.Desktop.DesktopIdentificationDescriptor",
+                  "__value": {
+                    "PropertyName": "ControlTypeName",
+                    "IsLocked": true
+                  }
+                }
+              ]
+            }
+          },
+          "TechnologyType": 8
+        }
       }
     },
     "UnitTypeTypeGeneration": 1,
     "RecorderBaseUrl": "",
     "IsStoryBoardCapturingEnabled": true,
+    "IsElementImageCapturingEnabled": true,
+    "UseScreenshotCache": true,
+    "EnableImageSearch": true,
+    "UseBrowserExtension": false,
+    "TelerikComponentsVersion": 10000,
+    "ScrollOnImageSearch": true,
+    "DisplayElementImagePreview": true,
+    "ElementImageThreshold": 90,
+    "ElementImageSearchTimeout": 15000,
+    "SearchByImageFirst": false,
+    "ElementImageSearchDelay": 300,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
     "SimulateRealSilverlightUserByDefault": true,
@@ -166,7 +203,7 @@
     "QcProject": null,
     "TfsUserName": "",
     "TfsPassword": "",
-    "TfsSkipAuthDialog": true,
+    "TfsSkipAuthDialog": false,
     "TfsDomain": "",
     "TeamPulseServerUrl": "",
     "TpUserName": "",
@@ -177,6 +214,7 @@
     "RecordWpfWindowStateChanged": false,
     "PromptNameOnAddElement": true,
     "DefaultWPFApplication": null,
+    "DefaultDesktopApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "e898c367-9dfe-46fa-ab58-562f358672d3",
     "SourceControlRepository": {
@@ -197,20 +235,27 @@
     "ProjectReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2017.1.207.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2017.1.207.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2017.1.207.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2017.1.207.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2017.1.207.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2017.1.207.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "ArtOfTest.WebAii, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Messaging, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI.Angular, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.TelerikUI.Blazor, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestStudio.Translators.Common, Version=2023.1.221.1, Culture=neutral, PublicKeyToken=528163f3e645de45"
     ],
     "ScheduleServerUrl": "http://localhost:8009",
     "IsScheduleServerRemote": false,
-    "ProjectVersion": "2017.1.116.0",
+    "NotificationSettings": null,
+    "WebComponents": true,
+    "ProjectVersion": "2023.1.220.0",
     "Namespace": "TestProject1",
     "AssemblyName": "TestProject1",
     "OutputFolder": "bin",
     "ExcludedFiles": [],
+    "InDevelopmentFiles": [],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
     "BugTrackerPersistableSettings": {},
@@ -219,6 +264,13 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 0
+    "SelectedBrowserOption": 0,
+    "SelectedResponsiveBrowserOption": 0,
+    "ResponsiveBrowserDevice": "Xiaomi RedMi Note 8",
+    "ResponsiveBrowserWidth": 393,
+    "ResponsiveBrowserHeight": 851,
+    "ResponsiveBrowserUserAgent": "Mozilla/5.0 (Linux; U; Android 9; es-es; Redmi Note 8T Build/PKQ1.190616.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.141 Mobile Safari/537.36 XiaoMi/MiuiBrowser/12.1.5-g",
+    "ActiveTheme": "Light",
+    "ShowStepResultDetails": false
   }
 }
